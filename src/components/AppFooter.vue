@@ -5,5 +5,15 @@
 </template>
 
 <style scoped>
-.footer { text-align: center; padding: 16px; color: #888; font-size: 13px; background: #fff; border-top: 1px solid #eee; }
+.footer {
+  padding: 28px 20px 32px;
+  color: #8490a3;
+  text-align: center;
+  font-size: 13px;
+  border-top: 1px solid rgba(48, 76, 118, 0.08);
+  background: rgba(255, 255, 255, 0.62);
+  backdrop-filter: blur(12px);
+}
+
+.footer p { margin: 0; letter-spacing: 0.04em; }
 </style>
